@@ -15,7 +15,6 @@ body {
 .main {
     max-width: var(--screen-width);
     margin: 0 auto;
-    padding: 2rem;
     position: relative;
     z-index: 1;
 }
@@ -30,14 +29,14 @@ body {
     font-weight: 400;
     font-family: 'Lora', serif;
     color: #000000;
-    margin-bottom: 8px;
+    margin-bottom: 50px;
 }
 
 .hero__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-bottom: 8px;
+    gap: 32px;
+    margin-bottom: 48px;
 }
 
 .hero__grid-image {
